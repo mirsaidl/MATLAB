@@ -1,0 +1,22 @@
+% Math Operation in MATLAB
+a = 5;
+b = 3;
+
+c = a + b; % addition
+d = a - b; % substraction
+e = c * d; 
+f = e / a; 
+
+disp(e);
+
+g = sqrt(16); % square root
+disp(g)
+
+% Matrix
+mat1 = [1,3,4; 3,5,7; 9,11,3;];
+mat2 = [9,14,6; 1,2,3; 8,4,12;];
+matadd = mat1 + mat2;
+matdot = mat1 * mat2;
+mattransposee = mat1';
+
+di
